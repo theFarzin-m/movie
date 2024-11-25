@@ -1,0 +1,23 @@
+.container{
+    display:flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.stars{
+    display: flex;
+}
+
+.star{
+    height: 24px;
+    width: 24px;
+}
+
+.star.hovered svg {
+    fill:#feec00;
+}
+.text{
+    line-height: 1;
+    margin: 0;
+}
+
